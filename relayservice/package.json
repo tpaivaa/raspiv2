@@ -1,0 +1,22 @@
+{
+  "name": "relayservice",
+  "version": "1.0.0",
+  "description": "serve GPIO status and meke changes to relays behing GPIO's with sockets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tpaivaa/raspiv2.git"
+  },
+  "author": "tpaivaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpaivaa/raspiv2/issues"
+  },
+  "homepage": "https://github.com/tpaivaa/raspiv2#readme",
+  "dependencies": {
+    "onoff": "^4.1.3"
+  }
+}
